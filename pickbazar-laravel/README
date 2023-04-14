@@ -1,0 +1,7 @@
+php artisan marvel:install
+
+php artisan storage:link
+
+yarn dev:shop-rest
+
+yarn dev:admin-rest
