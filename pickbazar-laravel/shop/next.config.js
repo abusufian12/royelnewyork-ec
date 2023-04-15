@@ -13,6 +13,8 @@ const nextConfig = {
   },
   images: {
     domains: [
+      '35.72.14.37',
+      '35.78.118.250',
       'pickbazarlaravel.s3.ap-southeast-1.amazonaws.com',
       'lh3.googleusercontent.com',
       'localhost',
