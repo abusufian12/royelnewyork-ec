@@ -1,5 +1,7 @@
 # royelnewyork-ec
 
+PHP version need: php 7.4
+
 yarn dev:shop-rest
 
 yarn dev:admin-rest
