@@ -40,3 +40,9 @@ sudo chmod -R 777 public/storage
 sudo chmod -R 777 bootstrap/cache
 
 //admin /// SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'en' for key 'settings_language_unique' (SQL: insert into settings Then in at settings table in language column have unique key. so need to chnage language or pass different language name
+
+
+under .next folder cache folder should be delete before push to git 
+
+if not running frontend alwyes check pm2 status 
+
