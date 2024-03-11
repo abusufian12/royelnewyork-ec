@@ -46,3 +46,25 @@ under .next folder cache folder should be delete before push to git
 
 if not running frontend alwyes check pm2 status 
 
+
+
+How to rebuild shop?
+When you upload the code to the server as a production, NextJS fetch its code from the build file. So after deployed, when you update or change code on scripts, the updated scripts don't work at admin end until you rebuild the project again. NextJs works this way.
+
+Now there are two ways you can follow to rebuild shop,
+
+If your server has more than 2+ CPU core and 6GB+ of memory, then you can directly edit code at your server then rebuild the project from the server directly using this command,
+
+For shop,
+
+Go to /var/www/pickbazar-laravel/shop
+
+yarn build
+After completing the build, restart the PM2 process using this command,
+
+pm2 restart 'all'
+
+
+But suppose your server doesn't have that processing power, and you try to build your scripts directly from the server. In that case, your server will be shut down during the build, and you've to restart the server.
+
+
