@@ -2,19 +2,19 @@ import { adminAndOwnerOnly, adminOwnerAndStaffOnly } from "@utils/auth-utils";
 import { ROUTES } from "@utils/routes";
 
 export const siteSettings = {
-  name: "PickBazar",
+  name: "QualityPark",
   description: "",
   logo: {
     url: "/logo.svg",
-    alt: "PickBazar",
+    alt: "QualityPark",
     href: "/",
     width: 128,
     height: 40,
   },
   defaultLanguage: "en",
   author: {
-    name: "RedQ, Inc.",
-    websiteUrl: "https://redq.io",
+    name: "QualityPark, Inc.",
+    websiteUrl: "https://qualityparkbd.co",
     address: "",
   },
   headerLinks: [],

@@ -12,7 +12,8 @@ const nextConfig = {
   },
   images: {
     domains: [
-      '18.183.180.32',
+      'qualityparkbd.com',
+      '13.231.244.223',
       'pickbazarlaravel.s3.ap-southeast-1.amazonaws.com',
       'lh3.googleusercontent.com',
       'localhost',
