@@ -14,7 +14,7 @@ export const siteSettings = {
   defaultLanguage: "en",
   author: {
     name: "QualityPark, Inc.",
-    websiteUrl: "https://qualityparkbd.co",
+    websiteUrl: "https://qualityparkbd.com",
     address: "",
   },
   headerLinks: [],

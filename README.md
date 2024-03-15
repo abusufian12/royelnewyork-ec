@@ -68,3 +68,10 @@ pm2 restart 'all'
 But suppose your server doesn't have that processing power, and you try to build your scripts directly from the server. In that case, your server will be shut down during the build, and you've to restart the server.
 
 
+
+// For SSL
+sudo apt install certbot python3-certbot-nginx
+
+sudo certbot --nginx -d YOUR_DOMAIN
+
+
