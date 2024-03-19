@@ -18,6 +18,7 @@ module.exports = withPWA({
     domains: [
       'qualityparkbd.com',
       'backend.qualityparkbd.com',
+      '3.112.47.106',
       '13.231.244.223',
       "via.placeholder.com",
       "res.cloudinary.com",
