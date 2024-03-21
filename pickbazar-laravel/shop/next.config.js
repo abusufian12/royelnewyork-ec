@@ -14,6 +14,7 @@ const nextConfig = {
     domains: [
       'qualityparkbd.com',
       'backend.qualityparkbd.com',
+      '35.72.86.20',
       '13.231.244.223',
       '18.183.180.32',
       'pickbazarlaravel.s3.ap-southeast-1.amazonaws.com',
