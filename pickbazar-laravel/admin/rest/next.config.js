@@ -17,6 +17,7 @@ module.exports = withPWA({
   images: {
     domains: [
       'qualityparkbd.com',
+      'admin.qualityparkbd.com',
       'backend.qualityparkbd.com',
       '3.112.47.106',
       '13.231.244.223',
